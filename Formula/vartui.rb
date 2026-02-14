@@ -1,17 +1,17 @@
 class Vartui < Formula
   desc "Terminal timesheet TUI and JSON CLI for VAR"
   homepage "https://github.com/pechanxur/vartui"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/pechanxur/vartui/releases/download/v0.3.0/vartui-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "c8d412514e45b2abdd2f601cb4620fac36ae4060ef630f11a500e4132091f1a5"
+      url "https://github.com/pechanxur/vartui/releases/download/v0.4.0/vartui-v0.4.0-darwin-arm64.tar.gz"
+      sha256 "87b962a7022ef2cbfec453b06a5fb62f6c2138b862633aaad65a383143862a92"
     end
 
     on_intel do
-      url "https://github.com/pechanxur/vartui/releases/download/v0.3.0/vartui-v0.3.0-darwin-x86_64.tar.gz"
-      sha256 "0ecb709fee3e0fb719f40dba32d25186356da490e695e9115bca221df0d8159a"
+      url "https://github.com/pechanxur/vartui/releases/download/v0.4.0/vartui-v0.4.0-darwin-x86_64.tar.gz"
+      sha256 "215f0a31b309d3f1fd42bad6aa620ea53d7afbb69bac08216308126dfa01eb2a"
     end
   end
 
